@@ -1,7 +1,7 @@
 # helloqt
 Grade Calculator for PIC10C Spring 2018 (Homework Assignment 2)
 
-## Process
+# Process
 I do my work primarily on Chromebooks running ChromeOS, which isn't compatible with the QT Creator IDE. As a consequence, it was difficult for me to find a long enough chunk of time for me to set up camp in the PIC Lab in the MS building and hammer out this assignment. The day it was do, I finished my morning and afternoon lectures and then committed my evening to completing the project before the deadline.
 
 # Problems, Solutions and Problem Solving
