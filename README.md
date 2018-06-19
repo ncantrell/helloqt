@@ -30,7 +30,9 @@ This problem was extremely aggravating. To achieved the desired functionality I 
 Clicking the radio buttons for Schema A or Schema B was supposed to change the state of the two boolean variables such that gradeMe() would correctly calculate the Overall Score according to the selected option. In reality is what ended up happening is I ended up debugging the function for the last 2 hours in the PIC Lab because no matter what changes I made to the code, the behavior of the compiled application never seemed to change.
 
 ### Solution 3) 
-I was never able to fix this problem as I simply ran out of time in the PIC Lab to identify what was causing the problem after several hours of failed attempts to do so. There are probably multiple lessons to learn from this (including don't wait until the day an assignment is due to start it), but I suspect I needed to do a clean build to get the compiled code to correctly update, which I wasn't doing as often as I should have during debugging.
+I was never able to fix this problem as I simply ran out of time in the PIC Lab to identify what was causing it (even after several hours of failed attempts to do so). 
+
+There are probably multiple lessons to learn from this (including don't wait until the day an assignment is due to start it), but I suspect I needed to do a clean build to get the compiled code to correctly update, which I wasn't doing as often as I should have during debugging.
 
 # Future Work
 I would be much more proud of my work on this assignment if I had found the time to correct the issues with "Problem 3", but it was otherwise a valuable opportunity to gain familiarity with Application UI design using QT Creator. Next quarter, I may spend some time in the PIC Lab reducing the complexity of my code by switching from 2x Boolean variables dedicated to grading scheme and going to a single Bool called "schemaA". This seems like a worthwhile excercise, and probably worth doing since I have this code on public display on Github.
