@@ -24,6 +24,9 @@ I was not able to find the appearance settings in QT Creator to exactly duplicat
 ## Problem 3) 'Truth Table' Debugging Nightmare
 This problem was extremely aggravating. To achieved the desired functionality I created 3x functions to calculate and return a grade: gradeMe(), gradeMeA(), and gradeMeB(). The general idea was that any user interaction should update the "Overall Score" display. The function which was supposed to do this was called "gradeMe()", and then gradeMeA()/gradeMeB() were supposed to modify the equation used to calculate the Overall Score. The grading scheme used by gradeMe() was controlled by 2x boolean variables (mistake #1), schemaA & schemaB (which in hindsight should have been a single Bool: "Schema A" with "Schema B" being the condition that "Schema A" is false).
 
+![alt text](https://raw.githubusercontent.com/ncantrell/helloqt/master/schema%20A.PNG)
+![alt text](https://raw.githubusercontent.com/ncantrell/helloqt/master/schema%20B.PNG)
+
 Clicking the radio buttons for Schema A or Schema B was supposed to change the state of the two boolean variables such that gradeMe() would correctly calculate the Overall Score according to the selected option. In reality is what ended up happening is I ended up debugging the function for the last 2 hours in the PIC Lab because no matter what changes I made to the code, the behavior of the compiled application never seemed to change.
 
 ### Solution 3) 
