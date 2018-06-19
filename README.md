@@ -2,7 +2,7 @@
 Grade Calculator for PIC10C Spring 2018 (Homework Assignment 2)
 
 # Process
-I do my work primarily on Chromebooks running ChromeOS, which isn't compatible with the QT Creator IDE. As a consequence, it was difficult for me to find a long enough chunk of time for me to set up camp in the PIC Lab in the MS building and hammer out this assignment. The day it was do, I finished my morning and afternoon lectures and then committed my evening to completing the project before the deadline.
+I do my work primarily on Chromebooks running ChromeOS, which isn't compatible with the QT Creator IDE. As a consequence, it was difficult for me to find a long enough chunk of time for me to set up camp in the PIC Lab in the MS building and hammer out this assignment. The day it was due, I finished my morning and afternoon lectures and then committed my evening to completing the project before the deadline.
 
 # Problems, Solutions and Problem Solving
 I was sick with Bronchitis for the lectures regarding QT Creator / GUI creation so I needed to learn the relevant material independently using the assignment description and Google Searches. I had previously worked with "Swing" UI programming in a Java class I took in ~2012, so I was a little familiar with the general idea of how to approach the problem. The specifics of the syntax for attaching code to UI elements in QT Creator was all new to me, and it took a little bit of trial and error on simple test cases before I was able to completely link my UI layout and the code that controlled the Grade Calculator.
